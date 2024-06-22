@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #e35ee863;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: rgba(157, 115, 150, 0.908);
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.stopwatch {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#display {
+    font-size: 2em;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.controls button {
+    font-size: 0.6em;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#startPauseBtn {
+    background: #80487fe5;
+    color: white;
+}
+
+#resetBtn {
+    background: #656261;
+    color: white;
+}
+
+#lapBtn {
+    background: #3f6788;
+    color: white;
+}
+
+.laps {
+    margin-top: 10px;
+}
+
+.laps ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.laps li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
